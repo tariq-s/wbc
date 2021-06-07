@@ -1,0 +1,26 @@
+<%- include ("./partials/header") %>
+
+
+<div class="container">
+	<h1 style="text-align: center">
+		Sign Up
+	</h1>
+
+	<form action="/register" method="POST">
+		<div style="text-align: center; margin: 20px">
+			<input type="text" name="username" placeholder="Username">
+		</div>
+		<div style="text-align: center; margin: 20px">
+			<input type="password" name="password" placeholder="Password">
+		</div>
+		<div style="text-align: center; margin: 20px">
+			<button type="submit">
+				Sign Up
+			</button>
+		</div>
+		
+		
+	</form>
+</div>
+
+<%- include ("./partials/footer") %>

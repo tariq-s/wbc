@@ -1,0 +1,12 @@
+i.icon {
+	font-size: 2em;
+	font-weight: 100; 
+}
+
+.container.main.segment {
+	margin-top: 7.0em;
+}
+
+#edit {
+	float: left;
+}
